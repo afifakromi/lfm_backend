@@ -17,6 +17,9 @@
         "laravel/tinker": "^2.5",
         "tcg/voyager": "^1.4"
     },
+    "post-install-cmd": [
+        "php artisan passport:install"
+    ],
     "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
